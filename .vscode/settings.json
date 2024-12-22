@@ -1,3 +1,5 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.format.settings.url": ".vscode/java-formatter.xml",
+    "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/zulu-19.jdk/Contents/Home"
 }
