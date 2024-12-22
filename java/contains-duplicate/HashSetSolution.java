@@ -27,7 +27,7 @@ public boolean hasduplicate(int[] nums)
 {
     Set<Integer> data = new HashSet<>();
 
-    for( int num: nums)
+    for( int num : nums)
     {
         if(data.contains(num))
         {
