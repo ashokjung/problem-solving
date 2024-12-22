@@ -4,12 +4,17 @@ Given an integer array nums, return true if any value appears more than once in 
 
 Example 1:
 
-```Input: nums = [1, 2, 3, 3]
+```
+Input: nums = [1, 2, 3, 3]
 
-Output: true```
+Output: true
+
+```
 
 Example 2:
 
-``` Input: nums = [1, 2, 3, 4]
+```
+Input: nums = [1, 2, 3, 4]
 
-Output: false ```
+Output: false
+ ```
