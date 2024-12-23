@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/contains-duplicate/contains-duplicate.iml" filepath="$PROJECT_DIR$/contains-duplicate/contains-duplicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/practice-set.iml" filepath="$PROJECT_DIR$/.idea/practice-set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/two-sum/two-sum.iml" filepath="$PROJECT_DIR$/two-sum/two-sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/valid-anagram/valid-anagram.iml" filepath="$PROJECT_DIR$/valid-anagram/valid-anagram.iml" />
+    </modules>
+  </component>
+</project>
