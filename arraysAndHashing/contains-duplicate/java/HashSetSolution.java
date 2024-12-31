@@ -10,11 +10,8 @@ public class HashSetSolution {
     hasDuplicateElement[2] = 3;
     hasDuplicateElement[3] = 4;
     hasDuplicateElement[4] = 3;
-
     int[] hasNoDuplicateElement = new int[]{10, 20, 30, 40, 50};
-
     boolean result;
-
     HashSetSolution solution = new HashSetSolution();
     result = solution.hasduplicate(hasDuplicateElement);
     System.out.println("Check for duplicate element in the array : " + result);
@@ -24,7 +21,6 @@ public class HashSetSolution {
 
   public boolean hasduplicate(int[] nums) {
     Set<Integer> data = new HashSet<>();
-
     for (int num : nums) {
       if (data.contains(num)) {
         return true;
@@ -32,8 +28,5 @@ public class HashSetSolution {
       data.add(num);
     }
     return false;
-
   }
-
-
 }

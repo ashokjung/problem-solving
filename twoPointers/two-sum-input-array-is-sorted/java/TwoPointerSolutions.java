@@ -1,17 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
-
-
-
 public class TwoPointerSolutions {
 
     public int[] twoSum(int[] nums, int target)
     {
         int leftPointer =0;
         int rightPointer = nums.length-1;
-
        while(leftPointer<rightPointer){
-
             int currentSum = nums[leftPointer] + nums[rightPointer];
             if(currentSum >target){
                 rightPointer--;
@@ -24,11 +19,9 @@ public class TwoPointerSolutions {
             }
          }
      return new int[0];
-
     }
 
     public static void main(String[] args){
-
         int[] nums = new int[]{1,2,3,4};
         int target = 3;
         int[] result = new int[2];
@@ -42,5 +35,4 @@ public class TwoPointerSolutions {
         }
         System.out.println("index are : " + list);  
     }
-    
 }

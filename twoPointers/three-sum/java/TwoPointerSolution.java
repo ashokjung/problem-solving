@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class TwoPointerSolution {
-    
 
 public List<List<Integer>> threeSum(int[] nums){
 
@@ -38,10 +37,8 @@ public List<List<Integer>> threeSum(int[] nums){
                 while (leftpointer<rightpointer && nums[leftpointer] ==nums[leftpointer-1]) {
                     leftpointer++;
                 }
-            }
-            
+            }  
         }
-
     }
 
     return result;
@@ -59,9 +56,5 @@ public List<List<Integer>> threeSum(int[] nums){
         System.out.println(result);
         result = solution.threeSum(nums2);
         System.out.println(result);
-    }
-    public int trapRainWater(int[] input) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'trapRainWater'");
     }
 }

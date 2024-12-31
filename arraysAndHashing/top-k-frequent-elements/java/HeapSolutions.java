@@ -8,14 +8,12 @@ public class HeapSolutions {
 
 public static void main(String[] args)
 {
-
     int[] input1 = {1,2,2,3,3,3};
     int k1 =2;
     int[] input2 = {7,7};
     int k2 = 1;
     int [] result; 
     List<Integer> list = new ArrayList<>();
-
     HeapSolutions heapSolutions = new HeapSolutions();
     result = heapSolutions.topKFrequentElements(input1, k1);
     for(int num: result){
@@ -28,8 +26,6 @@ public static void main(String[] args)
         list.add(num);
     }
     System.out.println("Top k frequent elements are:" + list);
-       
-
 }
 
 public int[] topKFrequentElements(int[] nums, int k){
@@ -47,17 +43,11 @@ public int[] topKFrequentElements(int[] nums, int k){
         if(heap.size()>k){
             heap.poll();
         }
-
     }
 
     for(int i=0; i<k;i++){
         result[i]= heap.poll()[1];
     }
-
-
     return result;
-
 }
-
-    
 }

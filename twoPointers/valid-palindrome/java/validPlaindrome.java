@@ -1,11 +1,9 @@
 
 public class validPlaindrome {
-
     public boolean isValidPalindrome(String s)
     {
         int leftpointer = 0;
         int rightpointer = s.length()-1;
-
         while(leftpointer< rightpointer)
         {
             while(leftpointer < rightpointer && !alphaNumeric(s.charAt(leftpointer)) )
@@ -23,12 +21,8 @@ public class validPlaindrome {
                }
                leftpointer ++;
                rightpointer --;
-            
         }
-
         return true;
-
-
     }
 
     public boolean alphaNumeric(char c)
@@ -40,8 +34,8 @@ public class validPlaindrome {
     }
     
     public static void main(String[] args)
-    {
-        validPlaindrome solution = new validPlaindrome();
+    {  
+         validPlaindrome solution = new validPlaindrome();
         String input =  "Was it a car or a cat I saw?" ;
         String input1 =  "tab a cat";
         boolean result ; 

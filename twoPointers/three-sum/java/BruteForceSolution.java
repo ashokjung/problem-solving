@@ -21,7 +21,7 @@ public List<List<Integer>> threeSum(int[] nums)
                 result.add(tmp);
             }
         }
-    }
+     }
    }
    return new ArrayList<>(result);
 }

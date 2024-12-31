@@ -11,13 +11,11 @@ public class SortingSolution {
     hasDuplicateElement[4] = 3;
     int[] hasNoDuplicateElement = new int[]{1, 2, 3, 4, 5};
     boolean result;
-
     SortingSolution solution = new SortingSolution();
     result = solution.hasduplicate(hasDuplicateElement);
     System.out.println("Check for duplicate element in array :  " + result);
     result = solution.hasduplicate(hasNoDuplicateElement);
     System.out.println("Check for No duplicate element in array :  " + result);
-
   }
 
   public boolean hasduplicate(int[] nums) {
@@ -29,5 +27,4 @@ public class SortingSolution {
     }
     return false;
   }
-
 }

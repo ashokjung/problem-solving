@@ -5,8 +5,6 @@ import java.util.List;
 import java.util.Map;
 
 public class HashTableSolution {
-
-
   public static void main(String[] args) {
     HashTableSolution solution = new HashTableSolution();
     List<List<String>> result;
@@ -32,8 +30,6 @@ public class HashTableSolution {
       result.putIfAbsent(key, new ArrayList<>());
       result.get(key).add(s);
     }
-
     return new ArrayList<>(result.values());
   }
-
 }

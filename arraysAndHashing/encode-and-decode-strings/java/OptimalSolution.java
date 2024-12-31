@@ -37,18 +37,14 @@ public class OptimalSolution {
         OptimalSolution solution = new OptimalSolution();
         List<String> inputList = Arrays.asList(input);
         List<String> inputList1 = Arrays.asList(input1);
-
         String encodedString = solution.encode(inputList);
         System.out.println("Encoded String: "+encodedString);
         decodedList = solution.decode(encodedString);
         System.out.println("Decoded List: "+decodedList);
-        
         decodedList.clear();
-
         String encodedString1 = solution.encode(inputList1);
         System.out.println("Encoded String: "+encodedString1);
         decodedList = solution.decode(encodedString1);
         System.out.println("Decoded List: "+decodedList);
-
     }
 }

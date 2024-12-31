@@ -7,9 +7,7 @@ public class BruteForceSolution {
     duplicateElementInArray[2] = 2;
     duplicateElementInArray[3] = 3;
     duplicateElementInArray[4] = 4;
-
     int[] noduplicateElementInArray = {10, 20, 30, 40, 50};
-
     BruteForceSolution solution = new BruteForceSolution();
     boolean result = solution.hasduplicate(duplicateElementInArray);
     System.out.println("Check for duplicate array input" + "  " + result);
@@ -26,7 +24,5 @@ public class BruteForceSolution {
       }
     }
     return false;
-
   }
-
 }
