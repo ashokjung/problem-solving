@@ -60,4 +60,8 @@ public List<List<Integer>> threeSum(int[] nums){
         result = solution.threeSum(nums2);
         System.out.println(result);
     }
+    public int trapRainWater(int[] input) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'trapRainWater'");
+    }
 }
