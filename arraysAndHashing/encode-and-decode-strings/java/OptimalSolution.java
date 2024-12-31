@@ -2,7 +2,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class OptmialSolution {
+public class OptimalSolution {
 
     public String encode(List<String> strs){
         StringBuilder result = new StringBuilder();
@@ -34,7 +34,7 @@ public class OptmialSolution {
         String[] input = new String[] {"neet","code","love","you"};
         String[] input1 = new String[] {"we","say",":","yes"};
         List<String> decodedList = new ArrayList<>();
-        OptmialSolution solution = new OptmialSolution();
+        OptimalSolution solution = new OptimalSolution();
         List<String> inputList = Arrays.asList(input);
         List<String> inputList1 = Arrays.asList(input1);
 
