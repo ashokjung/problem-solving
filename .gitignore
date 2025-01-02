@@ -6,3 +6,4 @@
 .vscode
 *.exe
 __pycache__
+.fake
