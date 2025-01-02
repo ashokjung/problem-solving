@@ -1,11 +1,11 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class BruteForceSolution{
+public class ValidSudoku{
 
     public static void main(String[] args){
       
-        BruteForceSolution solution = new BruteForceSolution();
+        ValidSudoku solution = new ValidSudoku();
         boolean isValid;
         char[][] board = {
             {'1','2','.','.','3','.','.','.','.'},
