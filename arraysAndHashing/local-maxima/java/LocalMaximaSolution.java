@@ -36,7 +36,7 @@ public class LocalMaximaSolution {
       
        for(int i=1; i<array.length-1; i++)
        {
-           if(array[i-1] <= array[i] && array[i] > array[i + 1])
+           if(array[i] >= array[i-1] && array[i] > array[i + 1])
            {
                localMaxima.add(array[i]);
            }
