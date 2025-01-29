@@ -58,8 +58,14 @@ public class FindLengthOfSubStringWithNoRepeatedChar {
         int k1 = 5;
         String inputString2 = "home";
         int k2 = 5;
-        System.out.println("Distinct Substring for inputString1 is : " + new FindLengthOfSubStringWithNoRepeatedChar().FindLengthOfSubStringWithNoRepeatedChar(inputString1,k1));
-        System.out.println("Distinct Substring for inputString2 is : " + new FindLengthOfSubStringWithNoRepeatedChar().FindLengthOfSubStringWithNoRepeatedChar(inputString2,k2));
+        
+        System.out.println("Distinct Substring for inputString1 is : " + 
+        new FindLengthOfSubStringWithNoRepeatedChar()
+        .FindLengthOfSubStringWithNoRepeatedChar(inputString1,k1));
+
+        System.out.println("Distinct Substring for inputString2 is : " +
+         new FindLengthOfSubStringWithNoRepeatedChar()
+        .FindLengthOfSubStringWithNoRepeatedChar(inputString2,k2));
 
     }
     
