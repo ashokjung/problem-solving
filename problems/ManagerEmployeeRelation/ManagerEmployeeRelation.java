@@ -41,13 +41,18 @@ public class ManagerEmployeeRelation {
     public List<String> getManagerEmployeeRelation(ArrayList<ManagerEmployeeRelation> employees){
         Map<String, List<String>> managerEmployeeMap = new HashMap<>();
         for(ManagerEmployeeRelation emp : employees){
-            if(managerEmployeeMap.containsKey(emp.ManagerName)){
+            
+                managerEmployeeMap
+                .computeIfAbsent(emp.ManagerName, k -> new ArrayList<>())
+                .add(emp.employeeName);
+
+          /*   if(managerEmployeeMap.containsKey(emp.ManagerName)){
                 managerEmployeeMap.get(emp.ManagerName).add(emp.employeeName);
             }else{
                 List<String> employeeList = new ArrayList<>();
                 employeeList.add(emp.employeeName);
                 managerEmployeeMap.put(emp.ManagerName, employeeList);
-            }
+            } */
         }
         List<String> result = new ArrayList<>();
         for(Map.Entry<String, List<String>> entry : managerEmployeeMap.entrySet()){
