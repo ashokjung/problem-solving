@@ -7,3 +7,4 @@
 *.exe
 __pycache__
 .fake
+*.log

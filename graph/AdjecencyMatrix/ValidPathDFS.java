@@ -1,4 +1,4 @@
-package graph;
+package graph.AdjecencyMatrix;
 import java.util.Arrays;
 
 /*
@@ -7,10 +7,10 @@ import java.util.Arrays;
  * using Adjecency Matrix.
  */
 
-public class FindIfPathExist {
+public class ValidPathDFS {
 
     public static void main(String[] args) {
-        FindIfPathExist finder = new FindIfPathExist();
+        ValidPathDFS finder = new ValidPathDFS();
         int n = 6;
         int[][] edges = {{0, 1}, {0, 2}, {3, 5}, {5, 4}, {4, 3}};
         int source = 0;

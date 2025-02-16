@@ -1,4 +1,4 @@
-package graph;
+package graph.AdjecencyMatrix;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -10,9 +10,9 @@ import java.util.Queue;
  */
 
 
-public class ValidPath {
+public class ValidPathBFS {
     public static void main(String[] args) {
-        ValidPath finder = new ValidPath();
+        ValidPathBFS finder = new ValidPathBFS();
         int n = 6;
         int[][] edges = {{0, 1}, {0, 2}, {3, 5}, {5, 4}, {4, 3}};
         int source = 0;
