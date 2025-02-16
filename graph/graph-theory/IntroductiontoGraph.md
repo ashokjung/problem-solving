@@ -29,3 +29,12 @@
 - Reachability and Stronly Connected Graphs or Strongly Connected Components 
 - Sparse or Dense Graph 
 - Bi Partix & Degree of Graph
+
+
+- When using DFS 
+    - We would need a visited array or a set 
+    - Use stack for the traversal or recursion Last in First out.sss
+
+- When using BFS 
+    - We would need a visited array or a set 
+    - Use Queue for the traversal First in First out
