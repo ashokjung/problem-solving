@@ -11,8 +11,9 @@ Every minute, if a fresh fruit is horizontally or vertically adjacent to a rotte
 
 Return the minimum number of minutes that must elapse until there are zero fresh fruits remaining. If this state is impossible within the grid, return -1.
 
-`
-Example 1:
+
+```
+ Example 1:
 
 
 
@@ -26,5 +27,6 @@ Input: grid = [[1,0,1],[0,2,0],[1,0,1]]
 Output: -1
 Constraints:
 
-1 <= grid.length, grid[i].length <= 10
-`
+1 <= grid.length, grid[i].length <= 10 
+
+```

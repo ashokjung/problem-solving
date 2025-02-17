@@ -13,7 +13,7 @@ For simplicity, nodes values are numbered from 1 to n, where n is the total numb
 
 The input node will always be the first node in the graph and have 1 as the value.
 
-`
+```
 Example 1:
 
 
@@ -25,8 +25,8 @@ Explanation: There are 3 nodes in the graph.
 Node 1: val = 1 and neighbors = [2].
 Node 2: val = 2 and neighbors = [1, 3].
 Node 3: val = 3 and neighbors = [2].
-`
-`
+```
+```
 Example 2:
 
 
@@ -35,19 +35,19 @@ Input: adjList = [[]]
 
 Output: [[]]
 Explanation: The graph has one node with no neighbors.
-`
-`
+```
+```
 Example 3:
 
 Input: adjList = []
 
 Output: []
 Explanation: The graph is empty.
-`
-`
+```
+```
 Constraints:
 
 0 <= The number of nodes in the graph <= 100.
 1 <= Node.val <= 100
 There are no duplicate edges and no self-loops in the graph.
-`
+```
