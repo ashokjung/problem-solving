@@ -53,22 +53,17 @@ public class NumberSameConseDiffBFS {
                     q.add(num * 10 + lastDigit - k);
                 }
             }
-
-            
         }
 
         while (!q.isEmpty() && len == n) {
             res.add(q.poll());
-            
         }
         
         int result[] = new int[res.size()];
-        for(int i = 0; i < res.size(); i++)
-        {
+        for(int i = 0; i < res.size(); i++){
             result[i] = res.get(i);
         }
-
-        return result;
+    return result;
 
     }
 }
