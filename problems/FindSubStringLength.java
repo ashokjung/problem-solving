@@ -15,9 +15,9 @@ import java.util.HashMap;
  * Explanation: Notice k can be larger than the length of S. In this case, it is not possible to find any substring.
  */
 
-public class FindLengthOfSubStringWithNoRepeatedChar {
+public class FindSubStringLength {
 
-    public int FindLengthOfSubStringWithNoRepeatedChar(String inputString, int inputStringLength){
+    public int findSubStringLength(String inputString, int inputStringLength){
        
         HashMap<Character,Integer> charMap = new HashMap<Character,Integer>();
         int left = 0;
@@ -60,12 +60,12 @@ public class FindLengthOfSubStringWithNoRepeatedChar {
         int k2 = 5;
         
         System.out.println("Distinct Substring for inputString1 is : " + 
-        new FindLengthOfSubStringWithNoRepeatedChar()
-        .FindLengthOfSubStringWithNoRepeatedChar(inputString1,k1));
+        new FindSubStringLength()
+        .findSubStringLength(inputString1,k1));
 
         System.out.println("Distinct Substring for inputString2 is : " +
-         new FindLengthOfSubStringWithNoRepeatedChar()
-        .FindLengthOfSubStringWithNoRepeatedChar(inputString2,k2));
+         new FindSubStringLength()
+        .findSubStringLength(inputString2,k2));
 
     }
     
