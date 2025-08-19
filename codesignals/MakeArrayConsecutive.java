@@ -12,9 +12,6 @@ public class MakeArrayConsecutive {
     public static int makeArrayConsecutive(int[] statues) {
       
      Arrays.sort(statues);
-        int minStatue = statues[0];
-        int maxStatue = statues[statues.length - 1];
-        int totalStatues = maxStatue - minStatue + 1;
-        return totalStatues - statues.length;
+        return statues[statues.length - 1] - statues[0] + 1 - statues.length;
     }
 }

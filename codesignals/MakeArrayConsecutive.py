@@ -3,8 +3,7 @@ def MakeArrayConsecutive(statues):
    statues.sort()
 
    for i in range(0,len(statues)-1):
-       s+=statues[i+1]-statues[i]-1
-   return s
+    return statues[-1] - statues[0] - (len(statues) - 1)
 
 if __name__== "__main__":
     test_statues = [6, 2, 3, 8]
